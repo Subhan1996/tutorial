@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="alise.css" />
+    <title>Counter</title>
 </head>
 <body>
-   <h1 class = "heading">Hello World!</h1> 
-   <p>Hello Subhan</p>
+   <div class="counter-value-container">
+    <div class="counter">
+        <h1 class="counter-heading">Counter</h1>
+        <p class = "counter-value" id = "counterValue">0</p>
+        <button class = "btn" onclick="onDecriment()">DECRESE</button>
+        <button class = "btn" onclick = "onReset()">RESET</button>
+        <button class = "btn" onclick="onIncriment()">INCRIMENT</button>
+    </div>
+   </div>
+   <script src="alise.js"></script>
 </body>
 </html>
